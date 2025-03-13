@@ -41,7 +41,7 @@
     color: yellowgreen;
 }
 .navmenu{
-    padding: 3px;
+    padding: px;
     font-size: 20px;
     align-items: center;
     font-weight: bold;
@@ -67,3 +67,4 @@
     text-decoration: none;
     color: white;
 }
+
