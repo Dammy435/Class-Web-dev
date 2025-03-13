@@ -7,37 +7,44 @@
     <title>E-Health: Innovating Healthcare solution</title>
     <script src="https://kit.fontawesome.com/7b9be5a1b9.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- header section -->
     <header>
-        <div>
-            <h1><b>Welcome to E-Healthcare Solution</b></h1>
-            <div>
-                <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
-                <p><span><i class="fa-solid fa-calendar-days"></i></span>6:30am - 10pm (Mon-Fri)</p>
-                <p><span><i class="fa-solid fa-envelope"></i></span>info@e-health.com/</p>
+        <div class="horizontal topNav">
+            <h1 class="graytext" id="title">Welcome to E-Healthcare Solution</h1>
+            <div class="horizontal">
+                <p class="contactInfo"><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
+                <p class="contactInfo"><span><i class="fa-solid fa-calendar-days"></i></span>6:30am - 10pm (Mon-Fri)</p>
+                <p class="contactInfo"><span><i class="fa-solid fa-envelope"></i></span>info@e-health.com</p>
             </div>
                     </div>
-        <nav>
-            <h3>E-Health</h3>
+        <nav class="horizontal">
+            <h3 class="navmenu"><span>E</span>-Health</h3>
 
             <!-- nav menu item -->
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#doctors">Doctors</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contacts">Contact</a></li>
-                <li><a href="#appointment">Make an appointment</a></li>
+            <ul class="horizontal topNav">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#about">About Us</a></li>
+                <li class="navItem"><a href="#doctors">Doctors</a></li>
+                <li class="navItem"><a href="#news">News</a></li>
+                <li class="navItem"><a href="#contacts">Contact</a></li>
+                <li class="navItem" id=appointment><a href="#appointment">Make an appointment</a></li>
             </ul>
         </nav>
-
+       
     </header>
     <!-- main section -->
     <main>
-        <!-- home section -->
+        
+            <!-- home section -->
         <section id="home">
             <div>
                 <p>Best Healthcare Solution </p>
@@ -147,8 +154,9 @@
                                 </select>
                                 <div><label for="Number">Phone Number</label>
                                     <input type="Tel"placeholder="+2348065171717"></div>
-                                    <div><label for="message">Additional Message</label>
-                                        <input type="text"placeholder="message" width="10cm"height="10cm"></div>
+                                    <div><label for=""></label>
+                                        <textarea name="" id="">Additional message</textarea>
+                                        </div>
                                 </div>
 
                 </form>
@@ -179,7 +187,11 @@
                             <input type="text"placeholder="Enter your name"></div>
                             <div><label for="email">Email address</label>
                                 <input type="email"placeholder="e.g hgf@gmail.com"></div>
-                </div>
+                                <label for="message">Additional Message</label>
+                                <input type="text"placeholder="message" width="10cm"height="10cm">
+                               <br>
+                                <input type="button" value="Submit">
+                            </div>
              </section>
              <!-- right part -->
              <section>
