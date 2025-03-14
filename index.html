@@ -16,7 +16,7 @@
 <body>
     <!-- header section -->
     <header>
-        <div class="horizontal topNav">
+        <div class="horizontal topNav space mobileh">
             <h1 class="graytext" id="title">Welcome to E-Healthcare Solution</h1>
             <div class="horizontal">
                 <p class="contactInfo"><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
@@ -28,7 +28,7 @@
             <h3 class="hdrmenu"><span>E</span>-Health</h3>
 
             <!-- nav menu item -->
-            <ul class="horizontal topNav">
+            <ul class="horizontal mobnav topNav">
                 <li class="navItem"><a href="#home">Home</a></li>
                 <li class="navItem"><a href="#about">About Us</a></li>
                 <li class="navItem"><a href="#doctors">Doctors</a></li>
@@ -43,7 +43,7 @@
     <main>
 
         <!-- home section -->
-        <section id="home">
+        <section id="home" class="container">
             <div class="background">
                 <div>
                     <h1 id="heading">Healthcare at your doorstep</h1>
@@ -53,106 +53,119 @@
         <br>
         <hr>
         <!-- About us section -->
-        <section id="bckg" class="bckg">
+        <section id="bckg" class="bckg container">
             <!-- left part -->
             <div id="abouthead">
                 <p>
-                <h2 id="abouttext">Welcome to Your <br><span>H</span>ealthcare Solution</h2>
+                <h2 id="abouttext">Welcome to Your <span>H</span>ealthcare Solution</h2>
                 </p>
-                <p id="aboutwords">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Tempora suscipit
-                    dignissimos quae ex <br>voluptates,quidem, quas, quos voluptatum <br>consequatur laboriosam.
-                    Suscipit, expedita voluptatem <br> distinctio aliquid voluptas natus sequi repellendus laboriosam.
-                    <br>Suscipit, expedita voluptatem distinctio aliquid voluptas natus <br>sequi repellendus
-                    praesentium consequuntur, repellat deleniti <br>nobis accusantium repudiandae!</p>
-                <div>
-                    <img src="./images/author-image.jpg" alt="">
-                    <p>Dr Neil Jackson</p>
-                    <p>General Principal</p>
+                <p id="aboutwords">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit
+                    dignissimos quae ex voluptates,quidem, quas, quos voluptatum consequatur laboriosam.
+                    Suscipit, expedita voluptatem distinctio aliquid voluptas natus sequi repellendus laboriosam.
+                    Suscipit, expedita voluptatem distinctio aliquid voluptas natus sequi repellendus
+                    praesentium consequuntur, repellat deleniti nobis accusantium repudiandae!
+                </p>
+
+                <div id="pgr">
+                    <img id="aboutextra" src="./images/author-image.jpg" alt="">
+                    <div>
+                        <p id="ain">Dr Neil Jackson </p>
+                        <p id="bin">General Principal</p>
+                    </div>
 
                 </div>
             </div>
         </section>
 
         <!-- doctor section -->
-        <section id="doctors">
+        <section id="doctors" class="container">
             <h2 class="ourdoctors">Our Doctors</h2>
-            <div class="container">
+            <div class="doc">
                 <div>
-                    <img src="./images/team-image1.jpg" alt="">
-                </div>
-                <div>
-                    <h4>Dr Nate Baston</h4>
-                    <p>
-                    <h5><i>General Principal</i></h5>
-                    </p>
+                    <img class="align" src="./images/team-image1.jpg" alt="">
+                    <div>
+                        <h4>Dr Nate Baston</h4>
+                        <p>
+                        <h5><i>General Principal</i></h5>
+                        </p>
 
-                    <hr>
-                    <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
-                    <p><span><i class="fa-solid fa-envelope"></i></span>general@company.com</p>
+                        <hr>
+                        <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
+                        <p><span><i class="fa-solid fa-envelope"></i></span>general@company.com</p>
+                    </div>
                 </div>
+
                 <div>
-                    <img src="./images/team-image2.jpg" alt="">
+                    <img class="align" src="./images/team-image2.jpg" alt="">
+                    <div>
+                        <h4>Jason Stewart</h4>
+                        <p>
+                        <h5><i>Pregnancy</i></h5>
+                        </p>
+                        <hr>
+                        <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
+                        <p><span><i class="fa-solid fa-envelope"></i></span>json@gmail.com
+                    </div>
                 </div>
+
                 <div>
-                    <h4>Jason Stewart</h4>
-                    <p>
-                    <h5><i>Pregnancy</i></h5>
-                    </p>
-                    <hr>
-                    <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
-                    <p><span><i class="fa-solid fa-envelope"></i></span>json@gmail.com
+                    <img class="align" src="./images/team-image3.jpg" alt="">
+                    <div>
+                        <h4>Dr. Elise Stone</h4>
+                        <p>
+                        <h5><i>Cardiologist</i></h5>
+                        </p>
+                        <hr>
+                        <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
+                        <p><span><i class="fa-solid fa-envelope"></i></span>elise@gmail.com
+                    </div>
                 </div>
-                <div>
-                    <img src="./images/team-image3.jpg" alt="">
-                </div>
-                <div>
-                    <h4>Dr. Elise Stone</h4>
-                    <p>
-                    <h5><i>Cardiologist</i></h5>
-                    </p>
-                    <hr>
-                    <p><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
-                    <p><span><i class="fa-solid fa-envelope"></i></span>elise@gmail.com
-                </div>
+
             </div>
         </section>
 
         <!-- News -->
 
-        <section id="news">
+        <section id="news" class="container">
             <h2>Latest News</h2>
-            <div><img src="./images/news-image1.jpg" alt="image1" width=300px height="500px"></div>
-            <div>
-                <p>
-                <h3><b>About Amazing Technology</b></h3>
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Mollitia asperiores error, odit
-                    doloribus dolores aut minima <br> accusamus dolor soluta, cum voluptas nemo ad magnam <br> sit
-                    explicabo ratione, quam iure <br> consequatur?</p>
-            </div>
-            <div><img src="./images/news-image2.jpg" alt="image2" width=400px height="350px"></div>
-            <div>
-                <p>
-                <h3>Introducing a new healing process</h3>
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Mollitia asperiores error, odit
-                    doloribus dolores aut minima <br> accusamus dolor soluta, cum voluptas nemo ad magnam <br> sit
-                    explicabo ratione, quam iure <br> consequatur?</p>
-            </div>
-            <div>
-                <img src="./images/news-image3.jpg" alt="image3">
-            </div>
-            <div>
-                <p>
-                <h3>Review Annual Medical Research</h3>
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Mollitia asperiores error, odit
-                    doloribus dolores aut minima <br> accusamus dolor soluta, cum voluptas nemo ad magnam <br> sit
-                    explicabo ratione, quam iure <br> consequatur?</p>
+            <div class="text doc">
+                <div>
+                    <img class="align"src="./images/news-image1.jpg" alt="image1">
+                    <p>
+                    <h3><b>About Amazing Technology</b></h3>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia asperiores error, odit
+                        doloribus dolores aut minima accusamus dolor soluta, cum voluptas nemo ad magnam sit
+                        explicabo ratione, quam iure consequatur?</p>
+                </div>
+    
+                    
+                <div>
+                    <div>
+                        <img class="align" src="./images/news-image2.jpg" alt="">
+                        <p>
+                        <h3>Introducing a new healing process</h3>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia asperiores error, odit
+                            doloribus dolores aut minima accusamus dolor soluta, cum voluptas nemo ad magnam sit
+                            explicabo ratione, quam iure consequatur?</p>
+                    </div>
+                    </div>
+                <div>
+                    <img class="align" src="./images/news-image3.jpg" alt="image3">
+                    <div>
+                        <p>
+                        <h3>Review Annual Medical Research</h3>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia asperiores error, odit
+                            doloribus dolores aut minima accusamus dolor soluta, cum voluptas nemo ad magnam sit
+                            explicabo ratione, quam iure consequatur?</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Appointment section -->
-        <section>
+        <section class="container">
             <!-- left div -->
             <div><img src="./images/appointment-image.jpg" alt="appointment"></div>
             <!-- right part -->
@@ -183,7 +196,7 @@
                                 <input type="Tel" placeholder="+2348065171717">
                             </div>
                             <div><label for=""></label>
-                                <textarea name="" id="">Additional message</textarea>
+                                <textarea name="Additional message" id="message">Additional message</textarea>
                             </div>
                         </div>
 
@@ -222,19 +235,19 @@
             </div>
             <div>
                 <!-- left part -->
-                <section>
-                    <div>
+                <section class="container">
+                    <div class="text">
                         <h3>Contact info</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloribus iste facere vitae
-                            reprehenderit,<br> vero sint facilis. Nemo in necessitatibus vitae atque <br> nulla ratione
-                            consequuntur accusantium, <br> modi placeat, voluptatem, sunt aut.
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste facere vitae
+                            reprehenderit, vero sint facilis. Nemo in necessitatibus vitae atque nulla ratione
+                            consequuntur accusantium, modi placeat, voluptatem, sunt aut.
                         </p>
                         <p><span><i class="fa-solid fa-phone"></i></span>+2347056743214</p>
                         <p><span><i class="fa-solid fa-envelope"></i></span>info@gmail.com
                     </div>
                 </section>
                 <!-- middle part -->
-                <section>
+                <section class="container">
                     <div>
                         <h3>Send us a message</h3>
                         <form action="#">
@@ -252,7 +265,7 @@
                             </div>
                 </section>
                 <!-- right part -->
-                <section>
+                <section class="container">
                     <div>
                         <h3>Opening hours</h3>
                         <p>Monday - Friday: 6:30am - 10pm</p>
@@ -274,7 +287,7 @@
 
     </main>
     <!-- footer section -->
-    <footer>
+    <footer class="container">
         <div>
             <p>&copy; 2025 E-Healthcare Solution</p>
             <p>Privacy Policy</p>

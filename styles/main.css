@@ -40,6 +40,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.space{
+    padding: 12px 68px;
+}
 .contactInfo {
     margin-right: 24px;
     color: rgb(11, 1, 1);
@@ -136,6 +140,10 @@
    ;
 }
 
+#abouthead{
+    width: 400px;
+}
+
 #abouthead span{
     
     color: rgb(247, 253, 247);
@@ -145,7 +153,35 @@
     
 }
 
+.text{
+    width: 300px;
+}
 
+#aboutextra{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 30px 10px 10px 10px;
+
+}
+
+#pgr{
+    display: flex;
+    align-items: center;
+
+}
+
+#ain{
+    font-size: 19px;
+    text-align: end;
+    font-weight: bold;
+    position: sticky;
+}
+
+#bin{
+font-size: 13px;
+    color: rgb(132, 132, 132);
+}
 
 
 .ourdoctors{
@@ -158,14 +194,20 @@
 }
 
 
-.container{
+.doc{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 60px;
 }
-.container img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+
+
+.align{
+    width: 400px;
+    height: 400px;
+    padding-right: 28px;
 }
+
+.container {
+    padding: 16px 64px
+}
+
+/* mobile styling */
