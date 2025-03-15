@@ -16,7 +16,7 @@
 <body>
     <!-- header section -->
     <header>
-        <div class="horizontal topNav space mobileh">
+        <div class="horizontal topNav space container">
             <h1 class="graytext" id="title">Welcome to E-Healthcare Solution</h1>
             <div class="horizontal">
                 <p class="contactInfo"><span><i class="fa-solid fa-phone"></i></span>+2347035901710</p>
@@ -24,7 +24,7 @@
                 <p class="contactInfo"><span><i class="fa-solid fa-envelope"></i></span>info@e-health.com</p>
             </div>
         </div>
-        <nav class="horizontal">
+        <nav class="horizontal container">
             <h3 class="hdrmenu"><span>E</span>-Health</h3>
 
             <!-- nav menu item -->
@@ -167,11 +167,10 @@
         <!-- Appointment section -->
         <section class="container">
             <!-- left div -->
-            <div><img src="./images/appointment-image.jpg" alt="appointment"></div>
             <!-- right part -->
-            <div>
-                <h3>Make an appointment</h3>
-                <form action="#">
+            <div class="background-image">
+
+                <form class="form-overlay" action="#">
                     <div>
                         <div><label for="name">Full name</label>
                             <input type="text" placeholder="Enter your name">
@@ -199,9 +198,9 @@
                                 <textarea name="Additional message" id="message">Additional message</textarea>
                             </div>
                         </div>
-
+                        <input type="button" value="Submit">
                 </form>
-                <input type="button" value="Submit">
+                
             </div>
         </section>
 

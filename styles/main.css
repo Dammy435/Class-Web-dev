@@ -210,4 +210,50 @@ font-size: 13px;
     padding: 16px 64px
 }
 
+.order{
+    width: 350px;
+    color: solid rgb(175, 61, 61);
+}
+
+.apt{
+    background-image: url(../images/appointment-image.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 1365px;
+    height: 580px ;
+    display: flex;
+    background-repeat: no-repeat;
+    color: rgb(21, 20, 20);
+    text-align: right;
+    align-items: self-end;
+    margin-top: 60px;
+}
+
+.background-image {  
+    background-image: url('../images/appointment-image.jpg');  
+    background-size: cover;  
+    background-position: initial;  
+    height: 800px;  
+    display: flex;  
+    justify-content: right;  
+    align-items: center;  
+}  
+
+.form-overlay {  
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  
+    width: 300px;  
+}  
+
+.form-overlay h2 {  
+    text-align: center;  
+}  
+
+.arrange {  
+    display: flex;  
+    justify-content: space-between;  
+}
+
 /* mobile styling */
